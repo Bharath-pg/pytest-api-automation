@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.pyo
+*.pyc
+
+# Reports
+reports/
+*.html
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
