@@ -41,7 +41,7 @@ def test_user_contract_validation(setup_teardown):
 
 @pytest.mark.parametrize("endpoint", [
     "/users",
-    "/commentss",
+    "/comments",
     "/posts"
 ])
 def test_multiple_endpoint_status(setup_teardown, endpoint):
