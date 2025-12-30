@@ -1,4 +1,4 @@
-![CI Status](https://github.com/Bharath-pg/api-automation-pytest/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/Bharath-pg/pytest-api-automation/actions/workflows/ci.yml/badge.svg)
 
 
 # 🧪 API Automation Framework — Python + PyTest
@@ -78,4 +78,5 @@ api-automation-pytest/
 ├── .gitignore                     # Ignore pycache, venv, logs, reports, etc.
 └── README.md                      # Project documentation
 ```
+
 
