@@ -17,9 +17,9 @@ venv/
 *.pyo
 *.pyc
 
-# Reports
-reports/
-*.html
+# Reports (ignore files but keep folder structure)
+reports/*
+!reports/.gitkeep
 
 # macOS / Windows system files
 .DS_Store
