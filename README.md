@@ -1,3 +1,6 @@
+![CI Status](https://github.com/Bharath-pg/api-automation-pytest/actions/workflows/ci.yml/badge.svg)
+
+
 # 🧪 API Automation Framework — Python + PyTest
 
 A robust API automation framework built using **Python**, **Requests**, and **PyTest** designed for scalable, maintainable testing of REST APIs.
@@ -26,6 +29,29 @@ This project demonstrates a modular API testing framework that includes:
 | JSON Schema validation | ✅ |
 | Parametrized tests | ✅ |
 
+## 🚀 Continuous Integration (CI) — GitHub Actions
+
+This project includes full CI/CD support using **GitHub Actions**.  
+Whenever new code is pushed to the `master` branch or a pull request is opened, the pipeline will automatically:
+
+✔ Install dependencies  
+✔ Run the entire PyTest test suite  
+✔ Generate an HTML report  
+✔ Upload the report as a pipeline artifact  
+
+This ensures that every change is validated before merging, keeping the project stable and production-ready.
+
+💡 CI Workflow Location:
+.github/workflows/ci.yml
+
+
+📌 Triggers:
+- `push` to `master`
+- `pull_request` targeting `master`
+
+📁 Generated Reports:
+reports/report.html
+
 ## 📂 Project Structure
 
 ```
@@ -52,3 +78,4 @@ api-automation-pytest/
 ├── .gitignore                     # Ignore pycache, venv, logs, reports, etc.
 └── README.md                      # Project documentation
 ```
+
